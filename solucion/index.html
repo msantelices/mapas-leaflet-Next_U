@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title> A Traveler's Tale</title>
+    </head>
+    <body>
+        
+        <header>
+            <section class="title">
+                <h1>A Traveler's Tale</h1>
+                <p>Where Every Journey Tells a Story</p>
+            </section>
+            <nav>
+                <a href="#">Sobre nosotros</a>
+                <a href="#">Historias</a>
+                <a href="#">Destinos</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </header>
+
+        <section class="map">
+            <h2>Un viaje increíble a... ¿A dónde viajamos hoy?</h2>
+            <p>Aquí puedes escoger el próximo lugar que te gustaria visitar.</p>
+            <div id="map"></div>    
+        </section>
+
+        <section class="articles">
+            <div class="card">
+                <figure>
+                    <img src="./assets/images/florencia.jpg" alt="card1"/>
+                </figure>
+                <section>
+                    <h3>Los mejores free tours de Florencia</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus suscipit eros, quis commodo turpis fermentum nec.</p>
+                </section>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="./assets/images/atenas.jpg" alt="card2"/>
+                </figure>
+                <section>
+                    <h3>Los 6 templos más bonitos de Atenas</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus suscipit eros, quis commodo turpis fermentum nec.</p>
+                </section>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="./assets/images/barcelona.jpg" alt="card3"/>
+                </figure>
+                <section>
+                    <h3>20 lugares que visitar en Barcelona</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus suscipit eros, quis commodo turpis fermentum nec.</p>
+                </section>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="./assets/images/leuven.jpg" alt="card4"/>
+                </figure>
+                <section>
+                    <h3>Cervecerías más antiguas en Bélgica</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus suscipit eros, quis commodo turpis fermentum nec.</p>
+                </section>
+            </div>
+
+        </section>
+
+        <footer>
+            <section class="subscription">
+                <label for="email">Suscríbete a nuestro boletín y cónoce nuestros viajes recientes</label>
+                <input type="text" placeholder="hola@atravelerstale.com"/>
+                <button>Suscribirme</button>
+            </section>
+            <section class="copy">
+                    <p>Copyright © 2023 por A Traveler's Tale</p>
+            </section>
+        </footer>
+
+
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <script type="module" src="./assets/js/main.js"></script>
+  </body>
+</html>
